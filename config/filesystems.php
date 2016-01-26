@@ -86,7 +86,7 @@ return [
             // The id of your new service account
             'service_account'                      => 'cloudstorage@silver-wall-120109.iam.gserviceaccount.com',
             // The location of the p12 service account certificate
-            'service_account_certificate'          => storage_path() . 'CloudStorageTest-4c7cc4acf61a.p12',
+            'service_account_certificate'          => storage_path('CloudStorageTest-4c7cc4acf61a.p12'),
             // The password you will be given when creating the service account
             'service_account_certificate_password' => 'notasecret',
             // The bucket you want this disk to point at

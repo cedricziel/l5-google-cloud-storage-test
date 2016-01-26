@@ -158,6 +158,7 @@ return [
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Websight\GcsProvider\CloudStorageServiceProvider::class,
+        Websight\L5GoogleClient\GoogleApiClientServiceProvider::class,
 
     ],
 
@@ -204,6 +205,8 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+
+        'GoogleClient' => \Websight\L5GoogleClient\Facades\GoogleClient::class
 
     ],
 
